@@ -1,12 +1,17 @@
 ![header-awari.png](https://github.com/BinariesGoalls/Awari-Engenharia-de-Dados/blob/master/awari-header.png)
 
-Esta é a tarefa proposta para a **Aula 4: Python para Egenharia de Dados**, do curso de **Engenharia de Dados** da **[Awari](https://awari.com.br/)**.
+Esta é a tarefa proposta para a **Aula 5: Iniciando Tratamento de Dados**, do curso de **Engenharia de Dados** da **[Awari](https://awari.com.br/)**.
 
 ---
 
 # O que fazer?
-##### As atividades propostas são apenas exercícios “de brinquedo” para reforçar conhecimentos básicos em Python:
+##### A atividade vai ao encontro do que foi visto em aula, sobre tratamento e limpeza de dados usando Pandas. O passo a passo consiste em:
 
-1. Criar algoritmo que liste toda a sequência de Fibonacci até o número 100.
-2. Criar algoritmo que faça a fatoração do número 1024. (Exemplo de fatoração: 6! = 6 * 5 * 4 * 3 * 2 * 1).
-3. Criar uma lista de frutas (bananas, maçãs, peras, uvas, laranjas) e fazer um algoritmo para consultar se uma fruta existe na lista. Caso não exista, adicionar a nova fruta. O programa só deve encerrar a brincadeira quando o usuário informar o número 999.
+1. Fazer download do dataset [Top Youtube Artists](https://www.kaggle.com/datasets/themrityunjaypathak/top-youtube-artist), do Kaggle.
+2. Tratar as colunas sem informação adicionando o texto “Não informado”.
+3. Formatar a coluna de total de views multiplicando por 1 milhão.
+4. Formatar coluna “AVG” para 2 casas decimais depois da vírgula.
+5. Mostrar os top 10 usuários.
+6. Mostrar primeiros 100 usuários por nome decrescente.
+7. Salvar um novo CSV com a informação tratada.
+
