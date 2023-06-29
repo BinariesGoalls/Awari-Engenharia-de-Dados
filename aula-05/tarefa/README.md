@@ -15,3 +15,9 @@ Esta é a tarefa proposta para a **Aula 5: Iniciando Tratamento de Dados**, do c
 6. Mostrar primeiros 100 usuários por nome decrescente.
 7. Salvar um novo CSV com a informação tratada.
 
+# Como fazer?
+##### Siga os passos do arquivo:
+
+```
+aula-05-tarefa.ipynb
+```
