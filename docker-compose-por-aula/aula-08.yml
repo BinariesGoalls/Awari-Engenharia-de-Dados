@@ -104,7 +104,7 @@ services:
     build:
       dockerfile: ../data/jupyterlab/Dockerfile
     volumes:
-     - ../jupyter-notebooks/:/notebooks
+     - ..:/notebooks
     ports:
       - "8888:8888"
       - "20020:20020"
