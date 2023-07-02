@@ -24,6 +24,4 @@ Você pode consultar mais detalhes a respeito do curso no seguinte link: <a href
 
 Alisson lima - ali2slima10@gmail.com
 
-Project Link: [https://github.com/BinariesGoalls/Data-Engineering-Nanodegree](https://github.com/BinariesGoalls/Data-Engineering-Nanodegree)
-
 Linkedin: [https://www.linkedin.com/in/binariesgoalls/](https://www.linkedin.com/in/binariesgoalls/)
