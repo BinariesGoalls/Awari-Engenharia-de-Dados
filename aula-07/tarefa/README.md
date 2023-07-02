@@ -43,7 +43,7 @@ docker compose -f docker-compose-por-aula/aula-07.yml run python-app sh -c "pyth
 
 * Durante a execução dos scripts, você pode verificar os dados sendo processados na janela de execução do próprio script <code>processa_dados.py</code>.
   
-* Você também pode verificar os dados sendo inseritos no MinIO. Vá para a interface da web do MinIO, clique no bucket aula-07 e você deve ver os arquivos CSVs sendo atualizados.
+* Você também pode verificar os dados sendo inseridos no MinIO. Vá para a interface da web do MinIO, clique no bucket "aula-07" e você deve ver os arquivos CSVs sendo atualizados.
   
 * Você tambéem pode verificar as mensagens sendo enviadas para a fila do Kafka para processamento através da interface gráfica configurada acessando:
 
