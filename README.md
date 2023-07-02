@@ -1,3 +1,29 @@
-# Engenharia de Dados
+![header-awari.png](https://github.com/BinariesGoalls/Awari-Engenharia-de-Dados/blob/master/awari-header.png)
 
-Workspace em Docker com scripts e automações para o curso de Engenharia de Dados da Awari.
+<br />
+
+<p align="center">
+ </a>
+ <h1 align="center">Engenharia de Dados</h1>
+ <p align="center">
+  Curso da Awari
+  <br />
+  <a href=https://github.com/BinariesGoalls/Awari-Engenharia-de-Dados/tree/master><strong>Explore the repository»</strong></a>
+  <br />
+  <br />
+ </p>
+
+</p>
+
+## Detalhes
+
+Você pode consultar mais detalhes a respeito do curso no seguinte link: <a href=https://awari.com.br/curso/engenharia-de-dados/#grade-curricular><strong>Awari</strong></a>
+
+
+## Contato
+
+Alisson lima - ali2slima10@gmail.com
+
+Project Link: [https://github.com/BinariesGoalls/Data-Engineering-Nanodegree](https://github.com/BinariesGoalls/Data-Engineering-Nanodegree)
+
+Linkedin: [https://www.linkedin.com/in/binariesgoalls/](https://www.linkedin.com/in/binariesgoalls/)
