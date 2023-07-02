@@ -8,7 +8,7 @@
  <p align="center">
   Curso da Awari
   <br />
-  <a href=https://github.com/BinariesGoalls/Awari-Engenharia-de-Dados/tree/master><strong>Explore the repository»</strong></a>
+  <a href=https://github.com/BinariesGoalls/Awari-Engenharia-de-Dados/tree/master><strong>Explore o repositório»</strong></a>
   <br />
   <br />
  </p>
