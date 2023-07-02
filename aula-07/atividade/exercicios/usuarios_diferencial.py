@@ -16,7 +16,7 @@ def save_key_to_s3(data_frame, key):
     return response
 
 # Caminho para o CSV que possui os usuários sendo carregados constantemente
-path = '/home/awari/app/aula-07/ingest/diferencial/usuarios.csv'
+path = '/home/awari/app/aula-07/atividade/ingest/diferencial/usuarios.csv'
 
 # Pegamos data e hora atuais
 current_time = datetime.now()
@@ -24,8 +24,8 @@ current_time = datetime.now()
 # Cria cliente com o S3/Minio
 client = boto3.client('s3', 
     endpoint_url='http://awari-minio-nginx:9000',
-    aws_access_key_id='mnYOiUf07UBjjJwf',
-    aws_secret_access_key='1Qu7X3EmbIYDNXUiuvFSDUJwJ4fWdyT5',
+    aws_access_key_id='na4wD5z41jD23z0t', #susbstitua por sua access_key_id
+    aws_secret_access_key='FVbYEyuqwvVBWcQ3igbpcw7hqTIbWo0p', #susbstitua por sua secret_access_key
     aws_session_token=None,
     config=boto3.session.Config(signature_version='s3v4'),
     verify=False,
@@ -45,7 +45,7 @@ try:
 except botocore.exceptions.ClientError as e:
     if e.response['Error']['Code'] == "NoSuchKey":
         # Se Key não existir.
-        status_df = pd.read_csv("/home/awari/app/aula-07/scripts/diferencial_usuarios_em_branco.csv")
+        status_df = pd.read_csv("/home/awari/app/aula-07/atividade/scripts/diferencial_usuarios_em_branco.csv")
         response = save_key_to_s3(status_df, key_usuarios)
 usuarios_df = pd.read_csv(response.get("Body"))
 print(usuarios_df)
@@ -60,7 +60,7 @@ except botocore.exceptions.ClientError as e:
     if e.response['Error']['Code'] == "NoSuchKey":
         # Se Key não existir.
         data = {'ultima_atualizacao': current_time.strftime("%Y-%m-%d %H:%M:%S") }
-        status_df = pd.read_csv("/home/awari/app/aula-07/scripts/diferencial_status.csv")
+        status_df = pd.read_csv("/home/awari/app/aula-07/atividade/scripts/diferencial_status.csv")
         response = save_key_to_s3(status_df, key_status)
 
 status_df = pd.read_csv(response.get("Body"))
@@ -75,7 +75,7 @@ df = pd.read_csv(path)
 
 # Filtra os usuários com data em criado_em > que a data hora da ultima atualização
 usuarios_filtrados_por_data = df[df['criado_em'] > str(status_datetime_serie.iloc[0])]
-usuarios_df = usuarios_df.append(usuarios_filtrados_por_data)
+usuarios_df = pd.concat([usuarios_df, usuarios_filtrados_por_data], ignore_index=True)
 print(usuarios_df)
 
 # Pega a data do usuário mais recente

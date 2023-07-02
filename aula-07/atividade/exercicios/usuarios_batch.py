@@ -6,7 +6,7 @@ import boto3
 from io import StringIO
 
 # Caminho dentro da imagem python-app para os arquivos a serem processados
-path = '/home/awari/app/aula-07/ingest/batch/'
+path = '/home/awari/app/aula-07/atividade/ingest/batch/'
 
 # Carrega todos os CSV da pasta
 csv_files = glob.glob(os.path.join(path, "*.csv"))
@@ -14,8 +14,8 @@ csv_files = glob.glob(os.path.join(path, "*.csv"))
 # Cria um cliente com o MinIO
 client = boto3.client('s3', 
     endpoint_url='http://awari-minio-nginx:9000',
-    aws_access_key_id='mnYOiUf07UBjjJwf',
-    aws_secret_access_key='1Qu7X3EmbIYDNXUiuvFSDUJwJ4fWdyT5',
+    aws_access_key_id='na4wD5z41jD23z0t', #susbstitua por sua access_key_id
+    aws_secret_access_key='FVbYEyuqwvVBWcQ3igbpcw7hqTIbWo0p', #susbstitua por sua secret_access_key
     aws_session_token=None,
     config=boto3.session.Config(signature_version='s3v4'),
     verify=False,
