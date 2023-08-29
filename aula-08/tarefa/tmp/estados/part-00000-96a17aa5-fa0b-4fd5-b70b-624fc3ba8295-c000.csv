@@ -1,0 +1,28 @@
+codigo_uf,latitude,longitude,nome,regiao,uf
+11,-10.83,-63.34,Rondônia,Norte,RO
+12,-8.77,-70.55,Acre,Norte,AC
+13,-3.47,-65.1,Amazonas,Norte,AM
+14,1.99,-61.33,Roraima,Norte,RR
+15,-3.79,-52.48,Pará,Norte,PA
+16,1.41,-51.77,Amapá,Norte,AP
+17,-9.46,-48.26,Tocantins,Norte,TO
+21,-5.42,-45.44,Maranhão,Nordeste,MA
+22,-6.6,-42.28,Piauí,Nordeste,PI
+23,-5.2,-39.53,Ceará,Nordeste,CE
+24,-5.81,-36.59,Rio Grande do Norte,Nordeste,RN
+25,-7.28,-36.72,Paraíba,Nordeste,PB
+26,-8.38,-37.86,Pernambuco,Nordeste,PE
+27,-9.62,-36.82,Alagoas,Nordeste,AL
+28,-10.57,-37.45,Sergipe,Nordeste,SE
+29,-13.29,-41.71,Bahia,Nordeste,BA
+31,-18.1,-44.38,Minas Gerais,Sudeste,MG
+32,-19.19,-40.34,Espírito Santo,Sudeste,ES
+33,-22.25,-42.66,Rio de Janeiro,Sudeste,RJ
+35,-22.19,-48.79,São Paulo,Sudeste,SP
+41,-24.89,-51.55,Paraná,Sul,PR
+42,-27.45,-50.95,Santa Catarina,Sul,SC
+43,-30.17,-53.5,Rio Grande do Sul,Sul,RS
+50,-20.51,-54.54,Mato Grosso do Sul,Centro-Oeste,MS
+51,-12.64,-55.42,Mato Grosso,Centro-Oeste,MT
+52,-15.98,-49.86,Goiás,Centro-Oeste,GO
+53,-15.83,-47.86,Distrito Federal,Centro-Oeste,DF
